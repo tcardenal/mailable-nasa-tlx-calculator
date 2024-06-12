@@ -314,7 +314,7 @@ interface BtnProps {
 }
 function Button({ type, placeholder, handler }: BtnProps) {
   return (
-    <span className="h-fit w-fit inline-flex -space-x-px overflow-hidden rounded-md border bg-white">
+    <span className="h-fit w-fit inline-flex -space-x-px overflow-hidden rounded-md bg-slate-950">
       <button
         type={type}
         onClick={
@@ -324,7 +324,7 @@ function Button({ type, placeholder, handler }: BtnProps) {
               }
             : undefined
         }
-        className="inline-block px-2 py-1 md:px-4 md:py-2 text-xs md:text-sm font-medium text-gray-700 hover:bg-gray-200 focus:relative"
+        className="inline-block px-2 py-1 md:px-4 md:py-2 text-xs md:text-sm font-medium text-white hover:bg-slate-700 focus:relative"
       >
         {placeholder}
       </button>
