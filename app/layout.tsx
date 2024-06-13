@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NASA TLX Calculator by Tanimal",
+  title: "NASA TLX Calculator",
   description: "NASA TLX Calculator by Tanimal",
 };
 
