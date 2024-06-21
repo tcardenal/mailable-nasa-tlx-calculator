@@ -549,42 +549,42 @@ function ScoreForm({ sendToParent }: ChildProps) {
         <div className="grid grid-flow-row md:grid-flow-col md:grid-rows-3 gap-4">
           <ScoreSlider
             title="1. Mental Demand"
-            question=" How mentally demanding was the task? 此任務的腦力需求怎麼樣?"
+            question=" How mentally demanding was the task?"
             name="MD"
             head="Very Low"
             tail="Very High"
           />
           <ScoreSlider
             title="2. Physical Demand"
-            question="How physically demanding was the task? 此任務的體力需求怎麼樣?"
+            question="How physically demanding was the task?"
             name="PD"
             head="Very Low"
             tail="Very High"
           />
           <ScoreSlider
             title="3. Temporal Demand"
-            question=" How hurried or rushed was the pace of the task? 此任務的節奏讓你感到匆忙嗎?"
+            question=" How hurried or rushed was the pace of the task?"
             name="TD"
             head="Very Low"
             tail="Very High"
           />
           <ScoreSlider
             title="4. Performance"
-            question="How successful were you in accomplishing what you were asked to do? 你在此任務上做的有多成功?"
+            question="How successful were you in accomplishing what you were asked to do?"
             name="PF"
             head="Perfect"
             tail="Failure"
           />
           <ScoreSlider
             title="5. Effort"
-            question="How hard did you have to work to accomplish your level of performance? 為了在這項任務上達到你的吮平，你需要付出多大的努力?"
+            question="How hard did you have to work to accomplish your level of performance?"
             name="EF"
             head="Very Low"
             tail="Very High"
           />
           <ScoreSlider
             title="6. Frustration"
-            question="How insecure, discouraged, irritated, stressed, and annoyed were you? 你有多不安、沮喪、煩躁、緊張和惱怒?"
+            question="How insecure, discouraged, irritated, stressed, and annoyed were you?"
             name="FR"
             head="Very Low"
             tail="Very High"
