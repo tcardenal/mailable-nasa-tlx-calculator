@@ -548,46 +548,46 @@ function ScoreForm({ sendToParent }: ChildProps) {
       >
         <div className="grid grid-flow-row md:grid-flow-col md:grid-rows-3 gap-4">
           <ScoreSlider
-            title="1. Mental Demand"
-            question=" How mentally demanding was the task?"
+            title="1. Exigencia Mental"
+            question="¿Cómo de exigente fue la tarea mentalemente?"
             name="MD"
-            head="Very Low"
-            tail="Very High"
+            head="Poco"
+            tail="Mucho"
           />
           <ScoreSlider
-            title="2. Physical Demand"
-            question="How physically demanding was the task?"
+            title="2. Exigencia Física"
+            question="¿Cómo de exigente fue la tarea físicamente?"
             name="PD"
-            head="Very Low"
-            tail="Very High"
+            head="Poco"
+            tail="Mucho"
           />
           <ScoreSlider
-            title="3. Temporal Demand"
-            question=" How hurried or rushed was the pace of the task?"
+            title="3. Exigencia Temporal"
+            question="¿Cómo de apurado fue el ritmo de la tarea?"
             name="TD"
-            head="Very Low"
-            tail="Very High"
+            head="Bajo"
+            tail="Alto"
           />
           <ScoreSlider
-            title="4. Performance"
-            question="How successful were you in accomplishing what you were asked to do?"
+            title="4. Rendimiento"
+            question="¿Cómo de exitoso fue el resultado de la tarea?"
             name="PF"
-            head="Perfect"
-            tail="Failure"
+            head="Perfecto"
+            tail="Fallido"
           />
           <ScoreSlider
-            title="5. Effort"
-            question="How hard did you have to work to accomplish your level of performance?"
+            title="5. Esfuerzo"
+            question="¿Cuánto esfuerzo tuvo que realizar para alcanzar el nivel de rendimiento?"
             name="EF"
-            head="Very Low"
-            tail="Very High"
+            head="Muy bajo"
+            tail="Muy alto"
           />
           <ScoreSlider
-            title="6. Frustration"
-            question="How insecure, discouraged, irritated, stressed, and annoyed were you?"
+            title="6. Frustración"
+            question="¿Cómo de inseguro, desanimado, irritado, estresado y molesto estuvo durante la tarea?"
             name="FR"
-            head="Very Low"
-            tail="Very High"
+            head="Poco"
+            tail="Mucho"
           />
         </div>
 
